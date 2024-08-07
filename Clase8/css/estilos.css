@@ -8,3 +8,47 @@ h1 {
 .parrafo{
     text-align: center;
 }
+.grande{
+    font-size: 50px;
+}
+*{
+    background-color: gold;
+
+}
+p.centrar{
+    text-align: center;
+}
+
+
+    .rojo{
+        border: groove firebrick;
+        border-width: 10px 5px 3px 2px;             
+        border-width: 5px;
+        border-radius: 10px;
+
+    }
+    
+
+.rosa{
+    border: 10px ridge hotpink;
+    border-width: thick;
+    border-width: 20px;
+    border-radius: 10px;
+}
+
+
+
+.amarillo{
+    border: 10px inset gold;
+    border-width: 5px;
+    
+    border-radius: 10px;
+}
+
+
+
+.azul{
+    border: 10px outset turquoise;
+    border-width: thin;
+
+}

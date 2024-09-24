@@ -1,0 +1,86 @@
+p{
+    background-color: rgb(236, 197, 255);
+    text-align: center;
+    color:rgb(188, 90, 188);
+    }
+   
+    
+      
+        body{
+            background-color: dodgerblue;
+            color: cornsilk;
+            background-image: url("/img/emilia4.png")
+        }
+    
+   ol{
+        list-style: none;
+        counter-reset: contador;
+        
+    
+    }
+    
+ ol li{
+        counter-increment: contador;
+        
+    }
+  ol li::before{
+        content: 'Redes ' counter(contador) ') ';
+        color: #a72dc2;
+    }
+   
+    .ullista{
+        list-style-type: none;
+        background-color: #8a26ab;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    
+    }
+    
+    .lista{
+        text-align: center;
+        display: inline-block;
+    }
+   .lista a{
+        display: block;
+        color: rgb(66, 0, 61);
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+    
+    }
+    
+    .lista a:hover{
+        background-color: #bc3988;
+    }
+    .ullista2{
+        list-style-type: none;
+      background-color: lightpink;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    
+    }
+    
+    .lista2{
+        text-align: center;
+        display: inline-block;
+    }
+   .lista2 a{
+        display: block;
+        color: darkmagenta;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+    
+    }
+    
+    .lista2 a:hover{
+        background-color:#857fff;
+    }
+    
+
+        
+        

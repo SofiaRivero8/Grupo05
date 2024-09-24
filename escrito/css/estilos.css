@@ -1,0 +1,90 @@
+h1{
+    color:rgb(139, 3, 139);
+    text-align: center;
+    font-style:italic;
+  }
+
+  h2{
+    color:palevioletred;
+    text-align: center;
+    font-style: italic;
+   font-size: 30px;
+  }
+
+ table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+text-align: center;}
+    td{
+        text-align: center;
+    }
+    th{
+        text-align: left;
+    }
+    
+    caption{
+        color:fuchsia;
+        font-size: 45px;
+        line-height: 70px;
+        font-style: italic;
+    
+    }
+    th{
+        text-align: left;
+        color:rgb(139, 3, 139);
+        background-color:skyblue;
+    
+    }
+    tr:nth-child(even){
+        background-color: violet;
+    
+    }
+ tr:nth-child(odd){
+        background-color: #a8dadc;
+    }
+    
+    p{border: groove lightpink;
+        border-width: 10px 5px 3px 2px;             
+        border-width: 5px;
+        border-radius: 10px;
+        text-align: center;
+    }
+   
+  
+
+ul{
+    list-style-type: none;
+    background-color: #8a26ab;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.lista{
+    text-align: center;
+    display: inline-block;
+}
+.lista a{
+    display: block;
+    color: rgb(66, 0, 61);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+.lista a:hover{
+    background-color: #bc3988;
+}
+.lista2{background-color: lightpink;}
+
+
+
+
+
+
+
+        
